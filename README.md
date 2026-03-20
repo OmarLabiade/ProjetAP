@@ -4,7 +4,11 @@
 Objectif : détecter 5 types de panneaux routiers à partir d’images.
 
 ## Classes
-Danger ordre indication direction localisation
+- danger 
+- ordre 
+- indication 
+- direction 
+- localisation
 
 ## Dataset
 - 500 images (5 étudiants)
@@ -13,13 +17,14 @@ Danger ordre indication direction localisation
 
 ## Structure
 
-dataset/
-|-- images/
-|   |-- train/
-|   |-- val/
-|   `-- test/
-|-- labels/
-|   |-- train/
-|   |-- val/
-|   `-- test/
-`-- data.yaml
+    dataset/
+        images/
+            train/
+            val/
+            test/
+        labels/
+            train/
+            val/
+            test/
+        data.yaml
+    README.md
