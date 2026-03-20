@@ -9,6 +9,7 @@ Objectif : détecter 5 types de panneaux routiers à partir d’images.
 - indication 
 - direction 
 - localisation
+- complement
 
 ## Dataset
 - 500 images (5 étudiants)
