@@ -12,7 +12,7 @@ Objectif : détecter 5 types de panneaux routiers à partir d’images.
 
 ## Dataset
 - 500 images (5 étudiants)
-- Sources : photos + + images libres de droit
+- Sources : photos + images libres de droit (google earth, wikipedia commons)
 - Annotation : bounding boxes (format YOLO) outil : https://www.makesense.ai/
 
 ## Structure
