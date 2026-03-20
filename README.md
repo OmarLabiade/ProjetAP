@@ -14,15 +14,12 @@ Danger ordre indication direction localisation
 ## Structure
 
 dataset/
-│
-├── images/
-│   ├── train/
-│   ├── val/
-│   └── test/
-│
-├── labels/
-│   ├── train/
-│   ├── val/
-│   └── test/
-│
-└── data.yaml
+|-- images/
+|   |-- train/
+|   |-- val/
+|   `-- test/
+|-- labels/
+|   |-- train/
+|   |-- val/
+|   `-- test/
+`-- data.yaml
