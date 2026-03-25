@@ -12,20 +12,15 @@ Objectif : détecter 5 types de panneaux routiers à partir d’images.
 - complement
 
 ## Dataset
-- 500 images (5 étudiants)
-- Sources : photos + images libres de droit (google earth, wikipedia commons)
+- 500+ images [val : 81; test : 81 ; train : 381] (5 étudiants) + augmentations sur le data du training(avec roboflow) = 1300+ images [[val : 81; test : 81 ; train : 1143]]
+- Sources : photos + images libres de droit (google earth(200), pris (100), data roboflow existantes (200),autres : wikipedia creative commons,gettyimages : 43  )
 - Annotation : bounding boxes (format YOLO) outil : https://www.makesense.ai/
 
 ## Structure
 
     dataset/
-        images/
-            train/
-            val/
-            test/
-        labels/
-            train/
-            val/
-            test/
+        train/
+        val/
+        test/
         data.yaml
     README.md
