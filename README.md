@@ -1,7 +1,7 @@
 # Projet Détection de Panneaux Routiers
 
 ## Description
-Objectif : détecter 5 types de panneaux routiers à partir d’images.
+Objectif : détecter 6 types de panneaux routiers à partir d’images.
 
 ## Classes
 - danger 
@@ -12,9 +12,9 @@ Objectif : détecter 5 types de panneaux routiers à partir d’images.
 - complement
 
 ## Dataset
-- 500+ images [val : 81; test : 81 ; train : 381] (5 étudiants) + augmentations sur le data du training(avec roboflow) = 1300+ images [[val : 81; test : 81 ; train : 1143]]
-- Sources : photos + images libres de droit (google earth(200), pris (100), data roboflow existantes (200),autres : wikipedia creative commons,gettyimages : 43  )
-- Annotation : bounding boxes (format YOLO) outil : https://www.makesense.ai/
+- 500+ images [val : 81; test : 81 ; train : 381] + augmentation sur le data du training(avec roboflow) = 1300+ images [[val : 81; test : 81 ; train : 1143]]
+- Sources : photos prises par le groupe ($\sim$100), captures Google Street View / Google Earth ($\sim$200), datasets publics Roboflow ($\sim$200), et images libres de droits (Wikipédia Creative Commons, Getty Images, $\sim$43 images).
+- Annotation : bounding boxes (format YOLO) outil : https://www.roboflow.com
 
 ## Structure
 
